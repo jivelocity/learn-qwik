@@ -1,6 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { QwikLogo } from "../icons/qwik";
 import styles from "./header.module.css";
+import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
@@ -27,6 +28,13 @@ export default component$(() => {
             >
               Examples
             </a>
+          </li>
+          <li>
+            <Link
+              href="/contacts/"
+            >
+              Contacts
+            </Link>
           </li>
           <li>
             <a

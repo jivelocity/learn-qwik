@@ -1,0 +1,13 @@
+img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
